@@ -20,7 +20,7 @@ public class ServerPretend : MonoBehaviour {
     {
         if (Application.isEditor)
         {
-             url = "http://52.6.243.86:8082";
+             url = "http://52.6.243.86:8083";
         }
         else
         {

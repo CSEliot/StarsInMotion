@@ -15,6 +15,10 @@ public class DockShip : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown("r"))
+        {
+            Application.LoadLevel("Docking Station");
+        }
 		if(ShipDestroyed && !CountDownBegin){
 			Time.timeScale = 0.2f;
 			CountDownBegin = true;
